@@ -8,7 +8,7 @@ import performanceRoutes from './routes/performance.routes';
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001; // Changed from 5000 to 5001
 
 // Middleware
 app.use(cors());

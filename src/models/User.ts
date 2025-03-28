@@ -1,5 +1,5 @@
-import pool from '../../config/db';
 import bcrypt from 'bcrypt';
+import pool from '../../config/db';
 
 export interface User {
   user_id: number;
